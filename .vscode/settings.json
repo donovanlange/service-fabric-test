@@ -1,0 +1,35 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    // Insert spaces when pressing Tab!
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+
+    // Trailing whitespaces are a crime
+    "files.trimTrailingWhitespace": true,
+
+    "[fsharp]" : {
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false
+    },
+
+    // Unimportant stuff
+    "files.exclude": {
+        "**/.git": true,
+        "**/.vs": true,
+        "**/*.sfproj.user": true,
+        "**/bin/": true,
+        "**/obj/": true,
+        "**/objd/": true,
+        "**/pkg/": true,
+        "output/": true,
+        "deploy/": true,
+        "packages/": true
+    },
+
+    "FSharp.workspaceMode": "ionideSearch",
+    "FSharp.fsacRuntime": "netcore"
+
+    // Uncomment these to debug F# parsing issues
+    // ,"FSharp.logLanguageServiceRequestsOutputWindowLevel": "DEBUG",
+    // "FSharp.logLanguageServiceRequests": "devconsole"
+}
